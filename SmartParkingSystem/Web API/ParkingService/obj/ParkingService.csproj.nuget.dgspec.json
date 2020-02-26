@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService\\ParkingService.csproj": {}
+  },
+  "projects": {
+    "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService\\ParkingService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService\\ParkingService.csproj",
+        "projectName": "ParkingService",
+        "projectPath": "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService\\ParkingService.csproj",
+        "packagesPath": "C:\\Users\\rsharma\\.nuget\\packages\\",
+        "outputPath": "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rsharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "GeoCoordinate.NetCore": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "mongocsharpdriver": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService.Test\\ParkingService.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService.Test\\ParkingService.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService.Test\\ParkingService.Test.csproj",
+        "projectName": "ParkingService.Test",
+        "projectPath": "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService.Test\\ParkingService.Test.csproj",
+        "packagesPath": "C:\\Users\\rsharma\\.nuget\\packages\\",
+        "outputPath": "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rsharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService\\ParkingService.csproj": {
+                "projectPath": "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService\\ParkingService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.7.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService\\ParkingService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService\\ParkingService.csproj",
+        "projectName": "ParkingService",
+        "projectPath": "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService\\ParkingService.csproj",
+        "packagesPath": "C:\\Users\\rsharma\\.nuget\\packages\\",
+        "outputPath": "C:\\IOT\\IoT\\SmartParkingSystem\\Web API\\ParkingService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rsharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "GeoCoordinate.NetCore": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "mongocsharpdriver": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
